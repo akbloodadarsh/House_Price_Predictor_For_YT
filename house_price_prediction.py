@@ -54,7 +54,7 @@ for max_leaf_nodes in candidate_max_leaf_nodes:
 # Fill in argument to make optimal size and uncomment
 final_model = DecisionTreeRegressor(max_leaf_nodes = best_tree_size)
 
-# fit the final model and uncomment the next two lines
+# fit the final model and uncomment the next two lines to predict the price of houses
 final_model.fit(X,y)
 predictions = final_model.predict(X)
 print(mean_absolute_error(y,predictions))
