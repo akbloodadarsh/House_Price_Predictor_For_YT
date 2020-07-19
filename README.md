@@ -7,3 +7,8 @@
 - Then we check the mean absolute error
 - Now we have to reduce this error thus we will keep changing the no of leaf nodes and check-in which we are getting the minimum error.
 - After finding the best no of leaf nodes we can predict the prices of the house.
+
+# Future improvements 
+- We can use some other algorithm to predict more accurate prices.
+- Feature scaling can be used.
+- ...
